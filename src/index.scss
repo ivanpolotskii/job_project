@@ -16,59 +16,6 @@
 }
 
 
-.modal-inside {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  // border: 1px solid #000;
-  width: 100%;
-  user-select: none;
-  .dates-navigation {
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    align-items: center;
-    margin-top: 20px;
-  }
-  .days-of-week{
-    display: flex;
-    margin: 8px 0 0 0;
-    .day-of-week{
-      margin: 0 6px;
-    }
-  }
-  .day-buttons_wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    width: 230px;
-    margin: 0px 0px 10px 0;
-    // margin-bottom: 10px;
-    justify-content: center;
-    .day-button {
-      // margin: 2px;
-      width: 27px;
-      height: 27px;
-      border: 0px;
-      border-radius: 50%;
-      margin: 1px;
-      text-align: center;
-      &:hover {
-        outline: 1px solid black;
-        background-color: #2b92ff;
-      }
-    }
-  }
-  .save-cancel-buttons{
-      
-    .save-button{
-      font-size: 10px;
-      
-    }
-    .cancel-button{
-      font-size: 10px;
-    }
-  }
-}
 
 
 
